@@ -14,3 +14,8 @@
 # out
 # [4, 4, 5, 5, 6, 2, 3, 0, 9, 4]
 # [6, 2, 3, 0, 9]
+lst = list(map(int, input("Введите числа через пробел:\n").split()))
+print(f"Исходный список: {lst}")
+new_lst = []
+[new_lst.append(i) for i in lst if i not in new_lst]
+print(f"Список из неповторяющихся элементов: {new_lst}")

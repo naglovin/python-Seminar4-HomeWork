@@ -24,4 +24,4 @@ def find_the_divisors_of_a_number(n):
    if n > 1:
        list.append(n)
    return list
-print(find_the_divisors_of_a_number(54))
+print(find_the_divisors_of_a_number(9990))
